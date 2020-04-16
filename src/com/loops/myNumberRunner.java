@@ -1,7 +1,6 @@
 package com.loops;
 
 public class myNumberRunner {
-
 	public static void main(String[] args) {
        myNumber number = new myNumber(8);
        boolean isPrime=number.isPrime();
