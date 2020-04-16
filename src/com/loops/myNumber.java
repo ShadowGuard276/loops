@@ -31,7 +31,7 @@ public class myNumber {
 	}
 	public int sumOfDivisiors() {	
 		int sum=0;	
-for(int i=23;i<=number-1;i++) {	
+for(int i=2;i<=number-1;i++) {	
 	if(number%i==0) {	
 		sum =sum+i;	
 	}	
