@@ -13,7 +13,7 @@ public class myNumber {
 				return false;
 					}
 		
-		for(int i=2; i<=number-1;i++) {
+		for(int i=1; i<=number-1;i++) {
 			if(number%2==0) {
 				return false;
 						}
@@ -23,11 +23,20 @@ public class myNumber {
 
 	public int sumUpToN() {
 		int sum =0;
-		for(int i=1;i<=number;i++) {
+		for(int i=2;i<=number;i++) {
 			sum =sum+i;
 			
 		}
 		return sum;
 	}
-   
-}
+
+	public int sumOfDivisiors() {
+		int sum=0;
+		for(int i=2;i<=number-1;i++) {
+			if(number%i==0) {
+				sum =sum+i;
+			}
+		}
+		return sum;
+	}
+	}
