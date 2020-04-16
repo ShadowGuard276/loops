@@ -23,7 +23,7 @@ public class myNumber {
 
 	public int sumUpToN() {
 		int sum =0;
-		for(int i=2;i<=number;i++) {
+		for(int i=1;i<=number;i++) {
 			sum =sum+i;
 			
 		}
